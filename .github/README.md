@@ -2,7 +2,7 @@
 
 # mod-missing-objectives
 
-![example](https://imgur.com/a/HxbEbRU)
+![example](https://github.com/user-attachments/assets/9c19c135-4185-4e98-8389-3350459e131f)
 
 This module works in conjunction with the work [Trimitor](https://github.com/Trimitor/WDM-patch) did on maps for classic dungeons and raids. This module adds `quest_poi` and `quest_poi_points`, which, while they could be considered correct, are not part of the emulator since they are not part of a `sniff`. With this, we not only managed to add the maps (which must be in the client, and is explained within the Trimitor repository), but we also marked the objectives within them, so that the player knows where to complete the objectives within those dungeons.
 
