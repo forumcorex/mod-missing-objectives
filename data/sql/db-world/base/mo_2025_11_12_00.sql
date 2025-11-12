@@ -1,0 +1,81 @@
+DELETE FROM `quest_poi` WHERE `QuestID`=166 AND `id`=1 AND `ObjectiveIndex`=4;
+INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
+(166, 1, 4, 36, 756, 2, 0, 1, 0);
+
+DELETE FROM `quest_poi_points` WHERE `QuestID`=166 AND `Idx1`=1;
+INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
+(166, 1, 0, -84, -819, 0);
+
+DELETE FROM `quest_poi` WHERE `QuestID`=2040 AND `id`=1 AND `ObjectiveIndex`=4;
+INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
+(2040, 1, 4, 36, 756, 1, 0, 1, 0);
+
+DELETE FROM `quest_poi_points` WHERE `QuestID`=2040 AND `Idx1`=1;
+INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
+(2040, 1, 0, -288, -519, 0);
+
+DELETE FROM `quest_poi` WHERE `QuestID`=214 AND `id`=2 AND `ObjectiveIndex`=4;
+INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
+(214, 2, 4, 36, 756, 1, 0, 1, 0);
+DELETE FROM `quest_poi` WHERE `QuestID`=214 AND `id`=3 AND `ObjectiveIndex`=4;
+INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
+(214, 3, 4, 36, 756, 1, 0, 1, 0);
+DELETE FROM `quest_poi` WHERE `QuestID`=214 AND `id`=4 AND `ObjectiveIndex`=4;
+INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
+(214, 4, 4, 36, 756, 1, 0, 1, 0);
+
+DELETE FROM `quest_poi_points` WHERE `QuestID`=214 AND `Idx1`=2;
+INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
+(214, 2, 0, -38, -394, 0),
+(214, 2, 1, -61, -342, 0),
+(214, 2, 2, -184, -400, 0),
+(214, 2, 3, -113, -460, 0);
+
+DELETE FROM `quest_poi_points` WHERE `QuestID`=214 AND `Idx1`=3;
+INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
+(214, 3, 0, -142, -540, 0),
+(214, 3, 1, -166, -489, 0),
+(214, 3, 2, -250, -466, 0),
+(214, 3, 3, -257, -499, 0),
+(214, 3, 4, -209, -529, 0);
+
+DELETE FROM `quest_poi_points` WHERE `QuestID`=214 AND `Idx1`=4;
+INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
+(214, 4, 0, -241, -581, 0),
+(214, 4, 1, -297, -543, 0),
+(214, 4, 2, -316, -620, 0);
+
+DELETE FROM `quest_poi` WHERE `QuestID`=214 AND `id`=5 AND `ObjectiveIndex`=4;
+INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
+(214, 5, 4, 36, 756, 2, 0, 1, 0);
+DELETE FROM `quest_poi` WHERE `QuestID`=214 AND `id`=6 AND `ObjectiveIndex`=4;
+INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
+(214, 6, 4, 36, 756, 2, 0, 1, 0);
+DELETE FROM `quest_poi` WHERE `QuestID`=214 AND `id`=7 AND `ObjectiveIndex`=4;
+INSERT INTO `quest_poi` (`QuestID`, `id`, `ObjectiveIndex`, `MapID`, `WorldMapAreaId`, `Floor`, `Priority`, `Flags`, `VerifiedBuild`) VALUES
+(214, 7, 4, 36, 756, 2, 0, 1, 0);
+
+DELETE FROM `quest_poi_points` WHERE `QuestID`=214 AND `Idx1`=5;
+INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
+(214, 5, 0, -134, -573, 0),
+(214, 5, 1, -89, -661, 0),
+(214, 5, 2, -110, -680, 0),
+(214, 5, 3, -160, -581, 0);
+
+DELETE FROM `quest_poi_points` WHERE `QuestID`=214 AND `Idx1`=6;
+INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
+(214, 6, 0, 11, -742, 0),
+(214, 6, 1, -95, -693, 0),
+(214, 6, 2, -98, -732, 0),
+(214, 6, 3, 10, -786, 0);
+
+DELETE FROM `quest_poi_points` WHERE `QuestID`=214 AND `Idx1`=7;
+INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBuild`) VALUES
+(214, 7, 0, -7, -821, 0),
+(214, 7, 1, -41, -779, 0),
+(214, 7, 2, -131, -783, 0),
+(214, 7, 3, -127, -843, 0),
+(214, 7, 4, -74, -867, 0),
+(214, 7, 5, -32, -856, 0);
+
+
