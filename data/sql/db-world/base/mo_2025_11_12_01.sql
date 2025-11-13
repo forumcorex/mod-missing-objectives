@@ -46,3 +46,4 @@ INSERT INTO `quest_poi_points` (`QuestID`, `Idx1`, `Idx2`, `X`, `Y`, `VerifiedBu
 (214, 7, 3, -127, -843, 0),
 (214, 7, 4, -74, -867, 0),
 (214, 7, 5, -32, -856, 0);
+
